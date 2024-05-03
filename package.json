@@ -1,0 +1,22 @@
+{
+  "name": "cypress-automation-login2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-dotenv": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "github:bahmutov/cypress-esbuild-preprocessor"
+  }
+}
